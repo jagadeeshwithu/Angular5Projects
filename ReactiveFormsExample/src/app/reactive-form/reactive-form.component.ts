@@ -11,12 +11,11 @@ import { IUser } from './reactive-form.interface';
 })
 export class ReactiveFormComponent implements OnInit {
 
-  private user: IUser[];
+  // private user: IUser[];
   private form: FormGroup;
 
   handleSubmit(ev) {
     // console.log(ev);
-    // console.log(form);
     console.log(this.form.value);
     
   }
