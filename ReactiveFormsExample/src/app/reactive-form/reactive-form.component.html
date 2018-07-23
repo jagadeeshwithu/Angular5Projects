@@ -1,0 +1,17 @@
+<form novalidate [formGroup]="form" (ngSubmit)="handleSubmit($event);">
+  <input 
+    type="text" 
+    name="name"
+    formControlName="name"
+  >
+  <div *ngIf="form.get('name').hasError('required')">
+    Name is required!
+  </div>
+  <input 
+    type="text" 
+    name="email"
+    formControlName="email"
+  >
+
+  <input type="submit" name="submitbtn" [disabled]="form.invalid">
+</form>
