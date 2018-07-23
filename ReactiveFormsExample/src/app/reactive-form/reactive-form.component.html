@@ -4,9 +4,13 @@
     name="name"
     formControlName="name"
   >
+  <div *ngIf="form.get('name').hasError('minlength')">
+      Should be atleast 4 characters!
+  </div>
   <div *ngIf="form.get('name').hasError('required')">
     Name is required!
   </div>
+  
   <input 
     type="text" 
     name="email"
