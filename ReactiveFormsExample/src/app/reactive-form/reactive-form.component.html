@@ -1,7 +1,6 @@
 <form novalidate [formGroup]="form" (ngSubmit)="handleSubmit($event);">
   <input 
     type="text" 
-    name="name"
     formControlName="name"
   >
   <div *ngIf="form.get('name').hasError('minlength')">
@@ -13,7 +12,6 @@
   
   <input 
     type="text" 
-    name="email"
     formControlName="email"
   >
 
