@@ -1,0 +1,6 @@
+.stories-pages-list-class {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-left: 3rem;
+}

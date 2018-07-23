@@ -1,0 +1,16 @@
+<p>
+  child-component works! 
+  <span [innerText]="pqr"></span>
+</p>
+
+<input type="text" #inputRef/>
+
+<div *ngFor="let item of checkBoxItems">
+  <input type="checkbox" #checkBoxRef/>
+</div>
+
+<button
+  (click)="handleClickInChild($event);"
+>
+Click Me!
+</button>

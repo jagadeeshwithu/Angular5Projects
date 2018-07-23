@@ -1,0 +1,11 @@
+<section class="chatitems-list">
+    <a class="chatitem" *ngFor="let item of chatData; let id=index" [routerLink]="'/chats/' + id">
+        <span class="chatitem-user">
+            {{item.email}}
+        </span>
+        <span class="chatitem-body">
+            {{item.body}}
+        </span>
+    </a>
+
+</section>

@@ -1,0 +1,28 @@
+.mailitemdata{
+    /* width: 80vw; */
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.mailitemdata + .mailitemdata {
+    border-top: 1px solid black;
+}
+
+.mailitemdata-title, .mailitemdata-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 1rem;
+}
+
+.mailitemdata-title{
+    flex: 1;
+}
+
+.mailitemdata-body{
+    flex: 3;
+}

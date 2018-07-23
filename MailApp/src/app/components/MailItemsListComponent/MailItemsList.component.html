@@ -1,0 +1,6 @@
+<section>
+    <a *ngFor="let mailitemdata of mailitemsdata; let id = index;" class="mailitemdata" [routerLink]="'/inbox/mails/' + id">
+        <span class="mailitemdata-title">{{mailitemdata.title}}</span>
+        <span class="mailitemdata-body">{{mailitemdata.body}}</span>
+    </a>
+</section>

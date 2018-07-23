@@ -1,0 +1,7 @@
+.chat-item-detail{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+    color: white;
+}

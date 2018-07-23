@@ -1,0 +1,24 @@
+.header-bar{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    background-color: blueviolet;
+    align-content: space-around;
+    align-items: center;
+}
+
+.branding-item, .search-item, .userprofile-item {
+    color: white;
+}
+
+.branding-item {
+    flex: 1;
+}
+
+.search-item {
+    flex: 5;
+}
+
+.userprofile-item {
+    flex: 1;
+}

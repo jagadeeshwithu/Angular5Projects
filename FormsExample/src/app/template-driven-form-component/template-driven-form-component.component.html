@@ -1,0 +1,14 @@
+<form 
+  #tdf="ngForm" 
+  novalidate 
+  (ngSubmit)="handleSubmit($event, tdf);"
+>
+
+  <input type="text" name="name" required ngModel>
+  <div *ngIf="tdf.controls?.name?.invalid">Name is required!</div>
+  <input type="text" name="email" required ngModel>
+  <div *ngIf="tdf.controls?.email?.invalid">Email is required!</div>
+
+  <input type="submit" name="submitbtn">
+
+</form>

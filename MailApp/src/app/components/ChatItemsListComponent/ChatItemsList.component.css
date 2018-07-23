@@ -1,0 +1,51 @@
+.chatitem {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.chatitem + .chatitem {
+    border-top: 1px solid black;
+}
+
+.chatitem-email, .chatitem-name {
+    flex: 1;
+    max-width: 12rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatitem-email {
+    font-weight: bold;
+}
+
+.chatitem-name {
+    font-weight: 200;
+}
+
+/* .chat-item-component {
+    position: fixed;
+    justify-content: flex-end;
+    right: 0;
+    display: none;
+} */
+
+.chatitem-box {
+    position: fixed;
+    justify-content: flex-end;
+    right: 0;
+    display: none;
+}
+
+.chatitem-box:active {
+    display: flex;
+}
+/* .chat-item-component-show {
+    display: flex;
+} */
+/* 
+a.chatitem:focus > .chat-item-component {
+    display: flex;    
+} */
+

@@ -1,0 +1,15 @@
+<div class="chatitem-item" (click)="showDetails($event)">
+    <p class="chatitem-email">
+        {{chatItemModel.email}}
+    </p>
+    <p class="chatitem-name">
+        {{chatItemModel.name}} -- {{idVal}}
+    </p>
+    
+</div>
+
+<chat-item-detail
+    [chatItemModel]="chatItemModel"
+    *ngIf="isVisible"
+>
+</chat-item-detail>

@@ -1,0 +1,10 @@
+<h3 class="mailitem-heading">
+    This is a child component {{childId}}
+</h3>
+
+<div *ngIf="userData">
+    <p class="mailitem-userid" [innerText]="userData.id"></p>
+    <p class="mailitem-firstname" [innerText]="userData.first_name"></p>
+    <p class="mailitem-lastname" [innerText]="userData.last_name"></p>
+    <img class="mailitem-avatar" [src]="userData.avatar">
+</div>

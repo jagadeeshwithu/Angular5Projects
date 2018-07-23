@@ -1,0 +1,15 @@
+.navlistcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 20rem 0;
+    width: 15vw;
+    /* border: 2px dotted black; */
+}
+
+.navlistcontainer-username {
+    text-decoration: none;
+}
+
+.navlistcontainer-username.active {
+    font-weight: bold;
+}

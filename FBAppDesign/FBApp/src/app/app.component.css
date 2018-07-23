@@ -1,0 +1,13 @@
+.body-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e9ebee;
+}
+
+/* .body-container-nav-list, .body-container-stories-pages-list {
+    flex: 1;
+}
+
+.body-container-feed-items-list {
+    flex: 3;
+} */

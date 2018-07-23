@@ -1,0 +1,11 @@
+<span
+    class="chatitem" 
+    *ngFor="let chatItemModel of chatdata; let id=index;"
+>
+    <chat-item [idVal]="id" [chatItemModel]="chatItemModel">
+        
+    </chat-item>
+    <!-- <chat-item-preview [chatItemModel]="chatItemModel" [idVal]="id"></chat-item-preview> -->
+</span>
+
+

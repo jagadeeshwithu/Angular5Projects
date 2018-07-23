@@ -1,0 +1,13 @@
+.navlistcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 20rem 0;
+}
+
+.navlistcontainer > .inbox-links {
+    text-decoration: none;
+}
+
+.inbox-links.active {
+    font-weight: bold;
+}

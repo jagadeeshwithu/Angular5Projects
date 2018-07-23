@@ -1,0 +1,12 @@
+<section class="feeditemslistdata">
+    <a
+        class="feeditemdata body-container-feed-items-list"
+        *ngFor="let feeditemdata of feeditemsdata; let i=index;"
+        [routerLink]= "i" 
+    >
+        <span class="feeditemdata-id" [innerText]="feeditemdata.id"></span>
+        <span class="feeditemdata-userid" [innerText]="feeditemdata.userId"></span>
+        <p class="feeditemdata-title" [innerText]="feeditemdata.title"></p>
+        <p class="feeditemdata-body" [innerText]="feeditemdata.body"></p>
+    </a>
+</section>

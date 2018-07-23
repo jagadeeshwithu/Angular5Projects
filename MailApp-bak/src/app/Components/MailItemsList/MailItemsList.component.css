@@ -1,0 +1,33 @@
+.mailitems-list {
+    width: 80vw;
+    float: right;
+}
+
+.mailitem {
+    text-decoration: none;
+    color: initial;
+    padding: 0.2rem 0;
+    display: flex;
+}
+
+.mailitem + .mailitem {
+    border-top: 1px solid black;
+}
+
+.mailitem-name, .mailitem-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mailitem-title {
+    flex: 1;
+    max-width: 15vw;
+}
+
+.mailitem-name {
+    flex: 3;
+    margin-left: 3vw;
+    max-width: 82vw;
+    align-content: flex-end;
+}

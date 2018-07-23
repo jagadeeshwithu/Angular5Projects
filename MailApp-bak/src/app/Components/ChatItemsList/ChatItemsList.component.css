@@ -1,0 +1,36 @@
+
+.chatitems-list {
+    width: 15vw;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-right: 3px solid black;
+    border-top: 1px solid black;
+}
+
+.chatitem {
+    text-decoration: none;
+    color: initial;
+    padding: 0.2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatitem + .chatitem {
+    border-top: 1px solid black;
+}
+
+.chatitem-user, .chatitem-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatitem-user {
+    font-weight: bold;
+}
+
+.chatitem-body {
+    opacity: 0.5;
+}

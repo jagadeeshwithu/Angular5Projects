@@ -1,0 +1,22 @@
+.feeditemslistdata {
+    background-color: white; 
+}
+
+.feeditemdata {
+    text-decoration: none;
+    color: initial;
+}
+
+/* .feeditemdata + .feeditemdata {
+    border: 2px solid black;
+} */
+
+.feeditemslistdata  .feeditemdata-title {
+    font-weight: bold;
+}
+
+.feeditemslistdata .feeditemdata-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,19 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.container {
+    display: flex;
+}
+
+.navlist-component {
+    /* display: none; */
+    border-bottom: 2px dotted black;
+}
+
+.maillistitems-component {
+    width: 12rem;
+    height: 50vw;
+    overflow: scroll;
+}

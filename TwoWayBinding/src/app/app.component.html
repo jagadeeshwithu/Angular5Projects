@@ -1,0 +1,22 @@
+<button
+    (click)="PQR='Some Parent Value'"
+>
+    Parent Click!
+</button>
+
+<span [innerText]="PQR">
+
+</span>
+
+<hr>
+<child-component 
+    [(pqr)]="PQR"
+>
+<!-- [pqr]="PQR" 
+(pqrChange)="handlePQR($event);" -->
+<!-- 
+[inputABC]="ABC" 
+    (onDEFEvent)="handleDEF($event);"
+     -->
+</child-component>
+
