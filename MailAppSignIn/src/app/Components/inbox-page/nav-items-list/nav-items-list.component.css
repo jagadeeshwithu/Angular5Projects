@@ -1,0 +1,13 @@
+.nav-list-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted salmon; */
+}
+
+.nav-list-container > .nav-list-container-item {
+    text-decoration: none;
+}
+
+.nav-list-container.nav-list-container-item.active {
+    font-weight: bold;
+}

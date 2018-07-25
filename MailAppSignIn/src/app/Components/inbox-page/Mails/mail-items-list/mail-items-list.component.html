@@ -1,0 +1,23 @@
+<section>
+  <a
+    *ngFor="
+      let mailitemdata of mailitemsdata;
+      let id = index;
+    "
+    class="mailitems"
+    [routerLink]="'inbox/mails/' + id"
+  >
+    <span
+      class="mailitems-title"
+      [innerText]="mailitemdata.title"
+    >
+    </span>
+    <span
+      class="mailitems-body"
+      [innerText]="mailitemdata.body"
+    >
+    </span>
+
+  </a>
+
+</section>

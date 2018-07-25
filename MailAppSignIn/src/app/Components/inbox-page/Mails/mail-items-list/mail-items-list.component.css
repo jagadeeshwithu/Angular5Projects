@@ -1,0 +1,26 @@
+.mailitems {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.mailitems + .mailitems {
+    border-top: 1px solid black;
+}
+
+.mailitems-title {
+    flex: 1;
+}
+
+.mailitems-body {
+    flex: 3;
+}
+.mailitems-title, .mailitems-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 1rem;
+}

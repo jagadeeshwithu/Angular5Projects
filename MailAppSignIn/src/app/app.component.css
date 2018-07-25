@@ -1,0 +1,57 @@
+.container {
+    padding-left: 1rem; 
+    position: relative;
+}
+
+.signinform, .passwordform {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 2px;
+    margin: 10vh 33vw;
+}
+
+.signinform-nextbtn, .signout-btn {
+    flex-direction: row;
+    align-self: flex-end;
+    width: 10vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 5vw;
+    right: 1rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+}
+
+.signout-btn {
+    top: 2rem;
+}
+
+.signinform-input-box {
+    width: 90%;
+    border: none;
+    /* border-color: transparent; */
+    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid; */
+}
+
+.signinform-input-box:focus {
+    outline: none;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.body-container .nav-items-list {
+    flex: 1;
+}
+
+.body-container .mail-items-list {
+    flex: 4;
+}

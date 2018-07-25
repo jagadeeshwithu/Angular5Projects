@@ -1,0 +1,36 @@
+<form
+  class="container signinform"
+  novalidate
+  [formGroup]="signInUserForm"
+  (ngSubmit)="userFormSubmit($event)"
+> 
+
+  <p>
+    Gmail
+  </p>
+
+  <h1>
+    Sign In
+  </h1>
+
+  <p>
+    to continue to Gmail
+  </p>
+
+  <input 
+    class="signinform-input-box"
+    type="text" 
+    formControlName="email"
+    value="Email"
+  >
+
+  <button
+    class="signinform-nextbtn"
+    type="submit"
+    [disabled]="signInUserForm.invalid"
+    routerLink="../password"
+  >
+    NEXT
+  </button>
+
+</form>
