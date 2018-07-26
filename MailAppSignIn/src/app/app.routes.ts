@@ -16,7 +16,7 @@ const appRoutes = [
     signInPasswordRoute,
     MailItemsListRoute,
     MailItemRoute,
-    InboxRoute
+    // InboxRoute
 ];
 
 export default RouterModule.forRoot(appRoutes);

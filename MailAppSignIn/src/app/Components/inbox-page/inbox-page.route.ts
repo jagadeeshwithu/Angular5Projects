@@ -5,8 +5,3 @@ export const InboxRoute: Route = <Route> {
   path: 'inbox',
   component: InboxPageComponent
 };
-
-// export const InboxMailsRoute: Route = <Route> {
-//   path: 'inbox/mails',
-//   component: InboxPageComponent
-// }
