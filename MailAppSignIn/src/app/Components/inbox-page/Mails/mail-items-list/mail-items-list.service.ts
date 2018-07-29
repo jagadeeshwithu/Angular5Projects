@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
+import { Observable } from "../../../../../../node_modules/rxjs";
 
 @Injectable()
 export class MailItemsListService {
@@ -7,7 +8,7 @@ export class MailItemsListService {
     
     constructor(private http: HttpClient){}
 
-    getMailContent() {
+    getMailContent(): Observable<any> {
         return this.http.get('https://jsonplaceholder.typicode.com/posts');
     }
 }
