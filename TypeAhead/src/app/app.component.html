@@ -1,0 +1,20 @@
+<div class="inputbox-container">
+  <input
+    class="search-input-box"
+    type="text"
+    autofocus
+    (input)="search($event.target.value)"
+  >
+</div>
+
+<div class="results-container">
+  <a 
+    *ngFor="let item of items; let id = index;" 
+    [innerText]="item"
+    class="search-list"
+    [routerLink]="'search/' + item"
+  >
+</a>
+</div>
+
+

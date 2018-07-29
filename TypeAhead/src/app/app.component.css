@@ -1,0 +1,19 @@
+.inputbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input-box:focus {
+    outline: none;
+}
+
+.search-list {
+    text-decoration: none;
+    color: initial;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+}
