@@ -1,23 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { WikiSearch } from './wiki-search.service';
-import { HttpClientModule } from '../../node_modules/@angular/common/http';
-import { ResultComponent } from './components/result-component/result-component.component';
-import appRoute from './app.route';
-
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    ResultComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule,
-    appRoute
+    RouterModule
   ],
   providers: [WikiSearch],
   bootstrap: [AppComponent]
