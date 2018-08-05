@@ -1,0 +1,14 @@
+.nav-list-container {
+    display: flex;
+    flex-direction: column;
+    outline: 1px dotted blanchedalmond;
+}
+
+.nav-list-container-item {
+    text-decoration: none;
+}
+
+.nav-list-container-item.active {
+    font-weight: bold;
+    color: initial;
+}

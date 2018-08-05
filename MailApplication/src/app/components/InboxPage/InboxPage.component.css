@@ -1,0 +1,15 @@
+.inboxpage-body-container {
+    display: flex;
+}
+
+.nav-items-list-chat-items-list-container {
+    flex: 3;
+}
+
+.mail-items-list-container {
+    flex: 7;
+}
+
+.mail-items-list-container, .nav-items-list-container {
+    flex: 1;
+}

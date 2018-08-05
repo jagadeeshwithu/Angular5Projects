@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header-bar.component.html',
   styleUrls: ['./header-bar.component.css', '../../../app.component.css']
 })
-export class HeaderBarComponent implements OnInit {
+export class HeaderBarComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

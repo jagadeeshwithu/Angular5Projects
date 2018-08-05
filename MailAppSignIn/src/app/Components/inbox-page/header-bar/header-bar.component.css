@@ -6,3 +6,17 @@
     height: 15vh;
     /* border: 1px dotted salmon; */
 }
+
+.headerbar-container > .search-box {
+    height: 20%;
+    margin: 1rem 0 0 28rem;
+    /* align-self: center; */
+}
+
+.headerbar-container > .search-box:focus {
+    outline: none;
+}
+
+.headerbar-container > .search-box::value {
+    opacity: .6;
+}

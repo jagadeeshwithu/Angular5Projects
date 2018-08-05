@@ -1,0 +1,16 @@
+<div>
+    <input 
+        class="searchbox"
+        type="text"
+        (input)="term$.next($event.target.value)"
+    >
+
+    <ul class="searchbox-results">
+        <li
+            class="searchbox-results-item"
+            *ngFor="let item of items"
+            [innerText]="item"
+        >
+        </li>
+    </ul>
+</div>

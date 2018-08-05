@@ -1,0 +1,18 @@
+<section class="mail-items-list">
+    <a
+        *ngFor="let mailitemdata of mailitemsdata; let id=index;"
+        class="mailitemdata"
+        [routerLink]="id"
+    >
+        <span 
+            class="mailitemdata-title"
+            [innerText]="mailitemdata.title | removeLineBreaks "
+        >
+        </span>
+        <span 
+            class="mailitemdata-body"
+            [innerText]="mailitemdata.body | removeLineBreaks "
+        >
+        </span>
+    </a>
+</section>

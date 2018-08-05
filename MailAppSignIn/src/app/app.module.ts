@@ -17,6 +17,7 @@ import { HeaderBarComponent } from './Components/inbox-page/header-bar/header-ba
 import { MailItemsListService } from './Components/inbox-page/Mails/mail-items-list/mail-items-list.service';
 import { MailItemService } from './Components/inbox-page/Mails/mail-item/mail-item.service';
 import { InboxPageComponent } from './Components/inbox-page/inbox-page.component';
+import { SearchBoxComponent } from './Components/inbox-page/header-bar/search-box/search-box.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { InboxPageComponent } from './Components/inbox-page/inbox-page.component
     MailItemComponent,
     NavItemsListComponent,
     HeaderBarComponent,
-    InboxPageComponent
+    InboxPageComponent,
+    SearchBoxComponent
   ],
   imports: [
     BrowserModule,

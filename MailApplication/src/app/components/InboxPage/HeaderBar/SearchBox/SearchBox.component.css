@@ -1,0 +1,23 @@
+.searchbox {
+    width: 93%;
+    position: relative;
+    left: 2.2rem;
+    display: flex;
+}
+
+.searchbox:focus {
+    outline: none;
+    
+}
+
+.searchbox-results {
+    /* left: 2vw; */
+    position: absolute;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+/* .searchbox-results-item {
+} */
